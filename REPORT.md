@@ -7,3 +7,7 @@ git checkout master
 git cherry-pick ci
 git branch -D ci
 
+###Task - 3
+git reflog
+git checkout aca3abb
+git branch old-master
