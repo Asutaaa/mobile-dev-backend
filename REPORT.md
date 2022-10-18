@@ -38,3 +38,6 @@ git add README.md
 git commit --no-edit
 git reset --hard HEAD~1
 git merge feature
+
+###Task - 9
+git fsck
