@@ -14,3 +14,10 @@ git branch old-master
 
 ###Task - 4
 git blame prisma/seed.ts
+
+###Task - 5
+git checkout master
+git bisect start
+git bisect bad
+git bisect good
+npm run test
