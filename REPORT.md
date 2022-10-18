@@ -44,3 +44,6 @@ git fsck
 
 ###Task - 10
 git gc --prune=now --aggressive
+
+###Task - 11
+git add -p e
