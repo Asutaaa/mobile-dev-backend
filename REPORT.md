@@ -29,3 +29,12 @@ echo .env >> .gitignore
 ###Task - 7
 git checkout feature
 git filter-branch --env-filter "GIT_AUTHOR_NAME='Bezzubnceva Anastasia'; GIT_AUTHOR_EMAIL='adkam02@mail.ru'; GIT_COMMITTER_NAME='Bezzubnceva Anastasia'; GIT_COMMITTER_EMAIL='adkam02@mail.ru'" HEAD~12..HEAD
+
+###Task - 8
+git checkout master
+git config rerere.enabled true
+git merge feature
+git add README.md
+git commit --no-edit
+git reset --hard HEAD~1
+git merge feature
