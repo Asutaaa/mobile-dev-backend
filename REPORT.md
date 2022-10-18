@@ -25,3 +25,7 @@ npm run test
 ###Task - 6
 git filter-branch --tree-filter "rm -f .env" -- --all
 echo .env >> .gitignore
+
+###Task - 7
+git checkout feature
+git filter-branch --env-filter "GIT_AUTHOR_NAME='Bezzubnceva Anastasia'; GIT_AUTHOR_EMAIL='adkam02@mail.ru'; GIT_COMMITTER_NAME='Bezzubnceva Anastasia'; GIT_COMMITTER_EMAIL='adkam02@mail.ru'" HEAD~12..HEAD
