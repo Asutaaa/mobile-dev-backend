@@ -21,3 +21,7 @@ git bisect start
 git bisect bad
 git bisect good
 npm run test
+
+###Task - 6
+git filter-branch --tree-filter "rm -f .env" -- --all
+echo .env >> .gitignore
