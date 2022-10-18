@@ -11,3 +11,6 @@ git branch -D ci
 git reflog
 git checkout aca3abb
 git branch old-master
+
+###Task - 4
+git blame prisma/seed.ts
