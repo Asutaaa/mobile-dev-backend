@@ -41,3 +41,6 @@ git merge feature
 
 ###Task - 9
 git fsck
+
+###Task - 10
+git gc --prune=now --aggressive
